@@ -19,7 +19,7 @@ const DetalleProducto = () => {
                       
                 <h1>Detalle de {productoBuscado.nombre}</h1> 
 
-                <div className="detallePersona">
+                <div className="detalleProducto">
                     <p>Descripción: <span className="datoDestacado">{productoBuscado.descripcion} </span> </p>
                     <p>Precio: <span className="datoDestacado">{productoBuscado.precio}</span>  </p>
                     <p>Marca: <span className="datoDestacado">{marca.nombre}</span>  </p>

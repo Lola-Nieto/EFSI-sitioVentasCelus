@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <h1>TiendaCelus</h1>
-        <img src="././assets/icon.jpg" alt="icono" />
+        <img src="./assets/icon.jpg"/>
       </div>
 
       <Link to="/">Home</Link>
@@ -30,8 +30,9 @@ const Navbar = () => {
           <div className="dropdown-menu">
             <Link to="productos"> Ver todos </Link>
             {marcas.map(marca => (
-                <Link to={`/productos/${marca.id}`}> {marca.nombre} </Link>
+                <Link to={`/productos/${marca.id}`} key={marca.id} > {marca.nombre} </Link>
         ))}
+
           </div>
         )}
       </div>

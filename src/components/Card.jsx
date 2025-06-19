@@ -1,15 +1,15 @@
 import {useParams} from "react-router-dom"
 import {Link} from "react-router-dom"
 
-import celulares from "../data/data.js"
+import {celulares} from "../data/data.js"
 
 import Button from './Button.jsx'
 
-import './Card.css'
+import '../styles/Card.css'
 
-const Card = ({id}) => {
-    const celular = celulares.find((celular) => celular.id == id); 
- 
+const Card = ({idCelular}) => {
+    const celular = celulares.find((celular) => celular.id == idCelular); 
+ console.log("celular en Card", celular);
   return (
     <>
      {celular &&

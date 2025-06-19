@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-//import './Contacto.css'
-import Button from './Button.jsx'
+import '../styles/Contacto.css'
+import Button from '../components/Button.jsx'
 
 
 function Contacto() {
