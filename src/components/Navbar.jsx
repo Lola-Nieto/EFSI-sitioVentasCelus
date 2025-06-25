@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import  {marcas} from "../data/data.js"
-//import "./Navbar.css";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="dropdown-menu">
             <Link to="productos"> Ver todos </Link>
             {marcas.map(marca => (
-                <Link to={`/productos/${marca.id}`} key={marca.id} > {marca.nombre} </Link>
+                <Link to={`/productos/${marca.id}`} key={marca.id} idMarca={marca.id}> {marca.nombre} </Link>
         ))}
 
           </div>

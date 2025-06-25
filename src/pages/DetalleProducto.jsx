@@ -6,7 +6,7 @@ import {celulares, marcas} from "../data/data.js"
 const DetalleProducto = () => {
     const {idCelular} = useParams();
 
-    const productoBuscado = celulares.find((celular) => celular.id == id); 
+    const productoBuscado = celulares.find((celular) => celular.id == idCelular); 
     const marca = marcas.find((marca) => marca.id == productoBuscado.id);
     if(!productoBuscado){
         return   ( <h1>Detalle de Producto -  El ID no existe </h1>)      

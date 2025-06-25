@@ -12,8 +12,7 @@ const Productos = () => {
 
     useEffect(() => {
       if (idMarca) {
-        console.log("entra al if en Productos");
-        setListaCelus(celulares.filter((celular) => celular.marcaId === idMarca));
+        setListaCelus(celulares.filter((celular) => celular.marcaId == idMarca));
       } else {
         setListaCelus(celulares); // Si no hay marca, mostrar todos
       }
