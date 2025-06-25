@@ -15,7 +15,7 @@ const Card = ({idCelular}) => {
         <div className="cardHome">
             <img src={celular.fotos[0] || `http://via.placeholder.com/200x200?text=${celular.nombre}}`} />
             <p> {celular.nombre} </p>
-            <p>{celular.precio}  </p>
+            <p>Precio: ${celular.precio}  </p>
             <Link to={`/productosD/${celular.id}`} celularId={celular.id} ><Button  texto="Ver más"/> </Link> 
         </div>
    

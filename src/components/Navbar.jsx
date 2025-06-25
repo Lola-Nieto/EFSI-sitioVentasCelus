@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import  {marcas} from "../data/data.js"
 import "../styles/Navbar.css";
-import logo from '../assets/icon.png';
+import logo from '../assets/favicon.png';
 
 const Navbar = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
@@ -18,27 +18,28 @@ const Navbar = () => {
         <h1>TiendaCelus</h1>
       </div>
 
-      <Link to="/">Home</Link>
-      <Link to="/quienes-somos">Quienes somos</Link>
+      <div className="opciones">
+        <Link to="/">Home</Link>
+        <Link to="/quienes-somos">Quienes somos</Link>
 
-      <div
-        className="dropdown"
-        onMouseEnter={manejarMouseEnter}
-        onMouseLeave={manejarMouseLeave}
-      >
-        <span className="dropdown-title">Productos</span>
-        {mostrarMenu && (
-          <div className="dropdown-menu">
-            <Link to="productos"> Ver todos </Link>
-            {marcas.map(marca => (
-                <Link to={`/productos/${marca.id}`} key={marca.id} idMarca={marca.id}> {marca.nombre} </Link>
-        ))}
+        <div
+          className="dropdown"
+          onMouseEnter={manejarMouseEnter}
+          onMouseLeave={manejarMouseLeave}
+        >
+          <span className={`dropdown-title ${mostrarMenu ? 'activa' : ''}`}>Productos</span>
+          {mostrarMenu && (
+            <div className="dropdown-menu">
+              <Link to="productos"> Ver todos </Link>
+              {marcas.map(marca => (
+                  <Link to={`/productos/${marca.id}`} key={marca.id} idMarca={marca.id}> {marca.nombre} </Link>
+          ))}
 
-          </div>
-        )}
+            </div>
+          )}
+        </div>
+        <Link to="/contacto">Contacto</Link>
       </div>
-
-      <Link to="/contacto">Contacto</Link>
     </nav>
     </>
   );

@@ -4,7 +4,7 @@ import React, {useState, useEffect } from 'react'
 import Card from '../components/Card.jsx'
 import {celulares} from "../data/data.js"
 
-//import './Productos.css'
+import '../styles/Productos.css'
 
 const Productos = () => {
     const {idMarca} = useParams();
@@ -20,9 +20,11 @@ const Productos = () => {
 
     return (
       <>
+      <div className="cardContainer">
        {listaCelus.map(celu => (
           <Card key={celu.id} idCelular={celu.id} />
         ))}
+        </div>
       </>
     )
   }

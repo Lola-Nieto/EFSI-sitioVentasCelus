@@ -1,3 +1,95 @@
-.navbar{
-    width: 100vw;
+
+@import url('https://fonts.googleapis.com/css2?family=JosefinSans&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: hsl(188, 83%, 9%); 
+  padding: 10px 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  background-color: #e3f2fd; 
+  box-sizing: border-box;
+}
+.opciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+.opciones a,
+.opciones .dropdown {
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #0277bd;
+  font-weight: 500;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo h1 {
+  font-family: 'Pacifico', cursive;
+  color: #0288d1;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.opciones a:hover {
+  background-color: #b3e5fc;
+  box-shadow: 0 0 0 2px #81d4fa;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-title {
+  color: #0277bd;
+  font-weight: 500;
+}
+.dropdown-title.activa{
+    background-color: #b3e5fc; /* mismo estilo que el hover */
+  box-shadow: 0 0 0 2px #81d4fa;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  background-color: #ffffff;
+  border: 1px solid #81d4fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #0277bd;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #b3e5fc;
+    box-shadow: 0 0 0 2px #81d4fa;
 }

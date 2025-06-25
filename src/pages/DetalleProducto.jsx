@@ -1,13 +1,19 @@
 import {useParams} from "react-router-dom"
 import {celulares, marcas} from "../data/data.js"
+import React, { useEffect } from 'react'
 
 //import './DetalleProducto.css'
 
 const DetalleProducto = () => {
     const {idCelular} = useParams();
+    const [productoBuscado, setProductoBuscado] = useState(celulares.find((celular) => celular.id == idCelular));
 
-    const productoBuscado = celulares.find((celular) => celular.id == idCelular); 
-    const marca = marcas.find((marca) => marca.id == productoBuscado.id);
+    
+    useEffect(() => {
+        setProductoBuscado(celulares.find((celular) => celular.id == idCelular));
+      }, [idCelular]);   
+  
+
     if(!productoBuscado){
         return   ( <h1>Detalle de Producto -  El ID no existe </h1>)      
     }
