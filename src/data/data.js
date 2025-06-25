@@ -1,10 +1,10 @@
-export const marcas = [
+ export const marcas = [
     { id: 1, nombre: 'Apple' },
     { id: 2, nombre: 'Samsung' },
     { id: 3, nombre: 'Xiaomi' },
     { id: 4, nombre: 'Motorola' }
    ];
-
+/*
    export const celulares = [
     {
       id: 1,
@@ -205,9 +205,9 @@ export const marcas = [
           ]
         }
    ];
+*/
 
-
-   /*
+   
    export const celulares = [
     {
       id: 1,
@@ -398,8 +398,7 @@ export const marcas = [
       fotos: [
         'https://http2.mlstatic.com/D_NQ_NP_825288-MLA52388776522_112022-O.webp',
         'https://www.fravega.com/fotos/l/2012286_1.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/m/o/moto
+        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/m/o/moto'
       ]
     }
 ];
-*/

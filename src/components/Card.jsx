@@ -1,4 +1,3 @@
-import {useParams} from "react-router-dom"
 import {Link} from "react-router-dom"
 
 import {celulares} from "../data/data.js"

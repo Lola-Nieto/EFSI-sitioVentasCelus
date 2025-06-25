@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import  {marcas} from "../data/data.js"
 import "../styles/Navbar.css";
+import logo from '../assets/icon.png';
 
 const Navbar = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
@@ -13,8 +14,8 @@ const Navbar = () => {
     <>
     <nav className="navbar">
       <div className="navbar-logo">
+        <img src={logo}/>
         <h1>TiendaCelus</h1>
-        <img src="./assets/icon.jpg"/>
       </div>
 
       <Link to="/">Home</Link>
