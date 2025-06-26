@@ -2,7 +2,7 @@ import {useParams} from "react-router-dom"
 import {celulares, marcas} from "../data/data.js"
 import React, { useEffect, useState } from 'react'
 
-//import './DetalleProducto.css'
+import '../styles/DetalleProducto.css'
 
 const DetalleProducto = () => {
     const {idCelular} = useParams();
@@ -30,9 +30,12 @@ const DetalleProducto = () => {
                     <p>Descripción: <span className="datoDestacado">{productoBuscado.descripcion} </span> </p>
                     <p>Precio: <span className="datoDestacado">{productoBuscado.precio}</span>  </p>
                     <p>Marca: <span className="datoDestacado">{marcas.find((marca) => marca.id == productoBuscado.marcaId)?.nombre}</span>  </p>
-                    {productoBuscado.fotos.map((foto, index) => (
+                    <div className="grilla">   
+                       {productoBuscado.fotos.map((foto, index) => (
                         <img key={index} src={foto || `http://via.placeholder.com/200x200?text=${productoBuscado.nombre}`} />
-                    ))}
+                        ))} 
+                    </div>
+                    
                 </div>
             </div>
         

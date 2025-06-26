@@ -4,14 +4,14 @@ import React, {useState, useEffect } from 'react'
 import Card from '../components/Card.jsx'
 import {celulares, marcas} from "../data/data.js"
 
-import '../styles/Productos.css'
+//import '../styles/Productos.css'
 
 const Productos = () => {
     const {idMarca} = useParams();
     const [listaCelus, setListaCelus] = useState(celulares);
 
     useEffect(() => {
-      if (idMarca && (idMarca < marcas.length && idMarca >= 0)) {
+      if (idMarca && (idMarca <= marcas.length && idMarca > 0)) {
         setListaCelus(celulares.filter((celular) => celular.marcaId == idMarca));
       } else {
         setListaCelus(celulares); // Si no hay marca, mostrar todos
@@ -26,7 +26,7 @@ const Productos = () => {
       <h1> Productos</h1>
       <hr class="solid"/>
 
-      <div className="cardContainer">
+      <div className="grilla">
        {listaCelus.map(celu => (
           <Card key={celu.id} idCelular={celu.id} />
         ))}

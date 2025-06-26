@@ -4,7 +4,7 @@
     { id: 3, nombre: 'Xiaomi' },
     { id: 4, nombre: 'Motorola' }
    ];
-
+   export const novedades = [ 5, 12, 13, 16 ] 
    export const celulares = [
     {
       id: 1,
