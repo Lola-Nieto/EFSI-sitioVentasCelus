@@ -20,10 +20,10 @@ const Productos = () => {
     if(idMarca && listaCelus == celulares){
         return   ( <h1> Producto -  El ID de la marca no existe </h1>)      
     }
-
+    const titulo = !idMarca ? "Productos" : `Productos de ${marcas.find((marca) => marca.id == idMarca).nombre}`
     return (
       <>
-      <h1> Productos</h1>
+      <h1> {titulo}</h1>
       <hr class="solid"/>
 
       <div className="grilla">

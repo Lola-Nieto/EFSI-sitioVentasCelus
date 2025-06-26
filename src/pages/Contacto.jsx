@@ -18,15 +18,13 @@ function Contacto() {
         console.log('Entra al handleSubmit')
         let esValidoAhora = ((nombre.trim().length > 3) && expresionMail.test(email) && (consulta.trim().length > 10)); //Si alguno está vacío - dsp se niega
             setEsValido(esValidoAhora);
-            if(esValidoAhora){
-                alert("Se envió el formulario con éxito");
-                Array.from(document.querySelectorAll("input")).forEach(
-                    input => (input.value = "")
-                );
-                this.setState({
-                  itemvalues: [{}]
-                });
-             }else{
+            if (esValidoAhora) {
+              alert("Se envió el formulario con éxito");
+            
+              setNombre("");
+              setEmail("");
+              setConsulta("");
+            }else{
               alert("Hay cosas incorrectas en el form, verifique los campos antes de enviar");
 
              }
