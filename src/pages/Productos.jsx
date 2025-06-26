@@ -24,6 +24,8 @@ const Productos = () => {
     return (
       <>
       <h1> Productos</h1>
+      <hr class="solid"/>
+
       <div className="cardContainer">
        {listaCelus.map(celu => (
           <Card key={celu.id} idCelular={celu.id} />

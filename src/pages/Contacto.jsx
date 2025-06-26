@@ -36,6 +36,8 @@ function Contacto() {
 return (
     <>
         <h1>Soporte técnico</h1>
+        <hr class="solid"/>
+
         <form onSubmit={handleSubmit}>
             <div id="divIngreso">
                 <label for="nombre">Nombre: </label> 

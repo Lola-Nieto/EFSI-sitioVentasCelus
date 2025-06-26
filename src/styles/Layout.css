@@ -42,3 +42,8 @@ html, body {
     padding-top: 80px;
 
 }
+hr.solid {
+    border-top: 3px solid;
+    color: rgba(255, 255, 255, 0.87);
+
+  }

@@ -24,6 +24,7 @@ const DetalleProducto = () => {
             <div className="todo">
                       
                 <h1>Detalle de {productoBuscado.nombre}</h1> 
+                <hr class="solid"/>
 
                 <div className="detalleProducto">
                     <p>Descripción: <span className="datoDestacado">{productoBuscado.descripcion} </span> </p>
