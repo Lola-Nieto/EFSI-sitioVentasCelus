@@ -12,6 +12,8 @@ html, body {
     align-items: center;
     justify-content: flex-start;
     box-sizing: border-box;
+    background-color: #9ad0ec;
+
     }
     
     nav {

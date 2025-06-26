@@ -1,6 +1,6 @@
 import {useParams} from "react-router-dom"
 import {celulares, marcas} from "../data/data.js"
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 //import './DetalleProducto.css'
 
@@ -15,7 +15,7 @@ const DetalleProducto = () => {
   
 
     if(!productoBuscado){
-        return   ( <h1>Detalle de Producto -  El ID no existe </h1>)      
+        return   ( <h1>Detalle de Producto -  El ID del celular no existe </h1>)      
     }
 
     return (
@@ -28,9 +28,9 @@ const DetalleProducto = () => {
                 <div className="detalleProducto">
                     <p>Descripción: <span className="datoDestacado">{productoBuscado.descripcion} </span> </p>
                     <p>Precio: <span className="datoDestacado">{productoBuscado.precio}</span>  </p>
-                    <p>Marca: <span className="datoDestacado">{marca.nombre}</span>  </p>
-                    {productoBuscado.fotos.map(foto => (
-                         <img src={foto || `http://via.placeholder.com/200x200?text=fotoCelular}`} />
+                    <p>Marca: <span className="datoDestacado">{marcas.find((marca) => marca.id == productoBuscado.marcaId)?.nombre}</span>  </p>
+                    {productoBuscado.fotos.map((foto, index) => (
+                        <img key={index} src={foto || `http://via.placeholder.com/200x200?text=${productoBuscado.nombre}`} />
                     ))}
                 </div>
             </div>

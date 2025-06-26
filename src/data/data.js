@@ -4,7 +4,7 @@
     { id: 3, nombre: 'Xiaomi' },
     { id: 4, nombre: 'Motorola' }
    ];
-/*
+
    export const celulares = [
     {
       id: 1,
@@ -37,9 +37,9 @@
       precio: 899,
       marcaId: 3,
       fotos: [
-        'https://example.com/xiaomi13pro-1.jpg',
-        'https://example.com/xiaomi13pro-2.jpg',
-        'https://example.com/xiaomi13pro-3.jpg'
+        'https://th.bing.com/th/id/OIP.IUA_F2KJmpLVBSR196rnHQHaFj?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+        'https://th.bing.com/th/id/OIP.JRtIi120w_NGASXOzMTT5gHaHa?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+        'https://th.bing.com/th/id/OIP.LDj7Klq2Mbxw4ckb4DmxNQHaGS?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3'
       ]
     },
     {
@@ -49,9 +49,9 @@
       precio: 699,
       marcaId: 4,
       fotos: [
-        'https://example.com/edge40-1.jpg',
-        'https://example.com/edge40-2.jpg',
-        'https://example.com/edge40-3.jpg'
+        'https://th.bing.com/th/id/OIP.8dGkg167-SM4rdeTQlZMkAHaHa?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+        'https://images.fonearena.com/blog/wp-content/uploads/2023/05/motorola-edge-40-1-943x1024.jpg',
+        'https://th.bing.com/th/id/OIP.0hgWtV7kirER6LwFYjoUKwHaKH?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3'
       ]
     },
     {
@@ -61,7 +61,9 @@
           precio: 1499,
           marcaId: 1,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/apple_iphone_15_pro_max-pictures-12548.php'
+            'https://th.bing.com/th/id/OIP.rg0j0rml0Pqf92BHmjL-WQHaE8?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3', 
+            'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg', 
+            'https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15-pro-max.png'
           ]
         },
         {
@@ -71,7 +73,8 @@
           precio: 1199,
           marcaId: 1,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/apple_iphone_15_pro-pictures-12547.php'
+            'https://www.gsmarena.com/pdflinks/apple_iphone_15_pro-pictures-12547.php', 
+            'https://th.bing.com/th/id/OIP.p2N9HPLOedmn4xA6hmHzdgHaJ4?w=1920&h=2560&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3'
           ]
         },
         {
@@ -81,7 +84,8 @@
           precio: 799,
           marcaId: 1,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/apple_iphone_15-pictures-12546.php'
+            'https://th.bing.com/th/id/OIP.r9yXIsf0hLjm--MAGY62TQHaMW?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3', 
+            'https://cdn.mos.cms.futurecdn.net/vGfTJ5NJHVMjyBX7xWjddW.jpeg'
           ]
         },
         {
@@ -91,7 +95,8 @@
           precio: 899,
           marcaId: 1,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/apple_iphone_15_plus-pictures-12545.php'
+            'https://th.bing.com/th/id/OIP.74mjW752pzqkNoJTk3-OWgHaHa?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+            'https://th.bing.com/th/id/OIP.T4u9GW43D3BmNgavyTfA_wHaHa?o=7rm=3&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3'
           ]
         },
         {
@@ -101,7 +106,9 @@
           precio: 1399,
           marcaId: 2,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/samsung_galaxy_s24_ultra-pictures-12771.php'
+            'https://media.croma.com/image/upload/v1705640288/Croma%20Assets/Communication/Mobiles/Images/303838_oqpio4.png',
+            'https://th.bing.com/th/id/OIP.seDkZ7w_josZda-_44JlyQHaE8?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+            'https://i5.walmartimages.com/seo/Samsung-Galaxy-S24-Ultra-5G-SM-S928B-DS-512GB-12GB-RAM-DUAL-SIM-Global-Model-Factory-Unlocked-GSM-Titanium-Violet_27c8a138-e673-4372-831a-744cb9511b5f.26c52035bd3a5280da10538de73f88ae.jpeg'
           ]
         },
         {
@@ -111,7 +118,8 @@
           precio: 1199,
           marcaId: 2,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/samsung_galaxy_s24+-pictures-12770.php'
+            'https://media.wired.com/photos/65b98da33bb22b6581ebf4a7/master/w_1600%2Cc_limit/Gear-Samsung-Galaxy-S24-lineup-SOURCE-Julian-Chokkattu.jpg',
+            'https://static1.pocketnowimages.com/wordpress/wp-content/uploads/wm/2024/01/samsung-galaxy-s24-series-1.jpeg'
           ]
         },
         {
@@ -121,7 +129,9 @@
           precio: 999,
           marcaId: 2,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/samsung_galaxy_s24-pictures-12769.php'
+            'https://th.bing.com/th/id/OIP.sP1OT3v5esX4uWt5tHWRVQHaFj?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+            'https://www.cnet.com/a/img/resize/3bf30f6292574521381b20796f95c9114d96e8a0/hub/2024/01/15/8095bca1-bc1c-41a7-8294-e32d1e102449/p1021005.jpg?auto=webp&width=1200',
+            'https://helios-i.mashable.com/imagery/articles/02Va1OgEPT0IMmPml6m250v/images-2.fill.size_2000x1125.v1705509206.png'
           ]
         },
         {
@@ -131,7 +141,9 @@
           precio: 1799,
           marcaId: 2,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/samsung_galaxy_z_fold_5-pictures-12768.php'
+            'https://th.bing.com/th/id/OIP.41jiapZTCSoGpTld2HLKIAHaEK?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+            'https://helios-i.mashable.com/imagery/articles/00EPK5O3e3CURuyLUpRrjnx/hero-image.fill.size_1200x675.v1690389164.png',
+            'https://es.digitaltrends.com/wp-content/uploads/2023/08/01-galaxy-z-fold-5-opening-top.jpg?p=1'
           ]
         },
         {
@@ -141,7 +153,9 @@
           precio: 999,
           marcaId: 3,
           fotos: [
-            'https://www.91mobiles.com/xiaomi-14-pro-price-in-india?ty=gallery'
+            'https://www.91-img.com/gallery_images_uploads/1/6/16893d46cdc50171e0252cf94f06980fdd1ee199.jpg?tr=h-630,c-at_max,q-70', 
+            'https://th.bing.com/th/id/OIP.l9LO7jnCdBVLWJG8g4wTiQHaEK?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3', 
+            'https://www.91-img.com/gallery_images_uploads/d/d/ddf139e1ca5b4687ce11ce37a0019bd5a5f6a657.jpg?tr=h-630,c-at_max,q-70'
           ]
         },
         {
@@ -151,7 +165,9 @@
           precio: 799,
           marcaId: 3,
           fotos: [
-            'https://www.91mobiles.com/xiaomi-14-price-in-india?ty=gallery'
+            'https://th.bing.com/th/id/OIP.LTiyQn7r-qSbdPNbwZW8NQHaE7?o=7rm=3&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3',
+            'https://www.91-img.com/gallery_images_uploads/4/2/42695299b60dbcba19046e38e242523c0cea31ca.JPG?tr=h-630,c-at_max,q-70',
+            'https://www.91-img.com/gallery_images_uploads/4/3/43926e2605b282f2ac352d9443f8b69670d58795.jpg?tr=h-630,c-at_max,q-70'
           ]
         },
         {
@@ -161,7 +177,9 @@
           precio: 599,
           marcaId: 3,
           fotos: [
-            'https://www.91mobiles.com/xiaomi-14-lite-price-in-india?ty=gallery'
+            'https://xiaomiui.net/wp-content/uploads/2024/03/Xiaomi-Civi-4-Pro.jpg', 
+            'https://th.bing.com/th/id/OIP.27I8LPxvzuryctkl6VkjZQHaD8?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3', 
+            'https://www.xiaomiadictos.com/wp-content/uploads/2024/02/xiaomi-civi-4-xiaomi-14-lite.jpg'
           ]
         },
         {
@@ -171,234 +189,35 @@
           precio: 899,
           marcaId: 4,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/motorola_edge_40_pro-pictures-12767.php'
+            'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-40-pro-1.jpg', 
+            'https://s2-techtudo.glbimg.com/_E5QwgLap9jyeAaSr64AJ2IKGK4=/0x0:1920x1665/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/d/v/6gWCP5RMqNYRVQukOjtw/edge-40-pro-02.jpg',
+            'https://mobilezone1.com/wp-content/uploads/2023/03/Motorola-Edge-40.jpg'
           ]
         },
         {
           id: 17,
-          nombre: 'Motorola Edge 40',
-          descripcion: 'Pantalla pOLED de 6.55", Dimensity 8020, cámara de 50 MP',
-          precio: 699,
-          marcaId: 4,
-          fotos: [
-            'https://www.gsmarena.com/pdflinks/motorola_edge_40-pictures-12766.php'
-          ]
-        },
-        {
-          id: 18,
           nombre: 'Motorola Moto G Power (2025)',
           descripcion: 'Pantalla LCD de 6.5", Snapdragon 695, cámara de 50 MP',
           precio: 249,
           marcaId: 4,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/motorola_moto_g_power_(2025)-pictures-12765.php'
+            'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g-power-2025-3.jpg', 
+            'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/motogpower20235g1234.jpg', 
+            'https://m-cdn.phonearena.com/images/phones/84871-350/Motorola-Moto-G-Power-2025.jpg?w=1'
           ]
         },
         {
-          id: 19,
+          id: 18,
           nombre: 'Motorola Moto G Stylus (2025)',
           descripcion: 'Pantalla LCD de 6.8", Snapdragon 695, cámara de 50 MP',
           precio: 299,
           marcaId: 4,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/motorola_moto_g_stylus_(2025)-pictures-12764.php'
+            'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6544/6544208_sd.jpg', 
+            'https://assets.mspimages.in/gear/wp-content/uploads/2024/08/moto-g-stylus-2025.jpg?is-pending-load=1'
           ]
         }
    ];
-*/
+
 
    
-   export const celulares = [
-    {
-      id: 1,
-      nombre: 'iPhone 14 Pro',
-      descripcion: 'Pantalla Super Retina XDR, chip A16 Bionic, cámara de 48 MP',
-      precio: 1299,
-      marcaId: 1,
-      fotos: [
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/i/p/iphone_14_pro_1.jpg',
-        'https://www.apple.com/la/iphone-14-pro/images/overview/hero/hero_static__e2w35x0xn9qq_large.jpg',
-        'https://www.fravega.com/fotos/l/2003743_1.jpg'
-      ]
-    },
-    {
-      id: 2,
-      nombre: 'Samsung Galaxy S23',
-      descripcion: 'Pantalla AMOLED 6.1", Snapdragon 8 Gen 2, cámara triple',
-      precio: 999,
-      marcaId: 2,
-      fotos: [
-        'https://images.samsung.com/is/image/samsung/p6pim/ar/2302/gallery/ar-galaxy-s23-s911-530807-sm-s911bzgmarq-530807354?$650_519_PNG$',
-        'https://http2.mlstatic.com/D_NQ_NP_682223-MLA52101673519_102022-O.webp',
-        'https://www.fravega.com/fotos/l/2006837_1.jpg'
-      ]
-    },
-    {
-      id: 3,
-      nombre: 'Xiaomi 13 Pro',
-      descripcion: 'Pantalla AMOLED 6.73", cámara Leica, carga rápida 120W',
-      precio: 899,
-      marcaId: 3,
-      fotos: [
-        'https://http2.mlstatic.com/D_NQ_NP_789675-MLA52069109687_102022-O.webp',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/x/i/xiaomi_13_pro_1.jpg',
-        'https://www.fravega.com/fotos/l/2005921_1.jpg'
-      ]
-    },
-    {
-      id: 4,
-      nombre: 'Motorola Edge 40',
-      descripcion: 'Pantalla pOLED, MediaTek Dimensity 8020, resistente al agua',
-      precio: 699,
-      marcaId: 4,
-      fotos: [
-        'https://http2.mlstatic.com/D_NQ_NP_698595-MLA52362464664_112022-O.webp',
-        'https://www.fravega.com/fotos/l/2012287_1.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/m/o/moto_edge_40_1.jpg'
-      ]
-    },
-    {
-      id: 5,
-      nombre: 'iPhone 15 Pro Max',
-      descripcion: 'Pantalla Super Retina XDR de 6.7", chip A17 Pro, cámara de 48 MP',
-      precio: 1499,
-      marcaId: 1,
-      fotos: [
-        'https://www.apple.com/la/iphone-15-pro/images/overview/hero/hero_static__cauwwm0gnwii_large.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/i/p/iphone_15_pro_max_1.jpg',
-        'https://www.fravega.com/fotos/l/2010153_1.jpg'
-      ]
-    },
-    {
-      id: 6,
-      nombre: 'iPhone 15 Pro',
-      descripcion: 'Pantalla Super Retina XDR de 6.1", chip A17 Pro, cámara de 48 MP',
-      precio: 1199,
-      marcaId: 1,
-      fotos: [
-        'https://www.apple.com/la/iphone-15-pro/images/overview/hero/hero_static__ckxjdvky9cei_large.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/i/p/iphone_15_pro_1.jpg',
-        'https://www.fravega.com/fotos/l/2010154_1.jpg'
-      ]
-    },
-    {
-      id: 7,
-      nombre: 'iPhone 15',
-      descripcion: 'Pantalla Super Retina XDR de 6.1", chip A16 Bionic, cámara de 48 MP',
-      precio: 799,
-      marcaId: 1,
-      fotos: [
-        'https://www.apple.com/la/iphone-15/images/overview/hero/hero_static__g7bwe4v4neie_large.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/i/p/iphone_15_1.jpg',
-        'https://www.fravega.com/fotos/l/2010155_1.jpg'
-      ]
-    },
-    {
-      id: 8,
-      nombre: 'iPhone 15 Plus',
-      descripcion: 'Pantalla Super Retina XDR de 6.7", chip A16 Bionic, cámara de 48 MP',
-      precio: 899,
-      marcaId: 1,
-      fotos: [
-        'https://www.apple.com/la/iphone-15-plus/images/overview/hero/hero_static__d5q2uz4ft2ii_large.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/i/p/iphone_15_plus_1.jpg',
-        'https://www.fravega.com/fotos/l/2010156_1.jpg'
-      ]
-    },
-    {
-      id: 9,
-      nombre: 'Samsung Galaxy S24 Ultra',
-      descripcion: 'Pantalla Dynamic AMOLED 2X de 6.8", Snapdragon 8 Gen 3, cámara de 200 MP',
-      precio: 1399,
-      marcaId: 2,
-      fotos: [
-        'https://images.samsung.com/is/image/samsung/p6pim/ar/2302/gallery/ar-galaxy-s24-ultra-s918-530809-sm-s918bzkdear-530809210?$650_519_PNG$',
-        'https://www.fravega.com/fotos/l/2012209_1.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/s/a/samsung_galaxy_s24_ultra_1.jpg'
-      ]
-    },
-    {
-      id: 10,
-      nombre: 'Samsung Galaxy S24+',
-      descripcion: 'Pantalla Dynamic AMOLED 2X de 6.6", Snapdragon 8 Gen 3, cámara de 50 MP',
-      precio: 1199,
-      marcaId: 2,
-      fotos: [
-        'https://images.samsung.com/is/image/samsung/p6pim/ar/2302/gallery/ar-galaxy-s24-plus-s916-530810-sm-s916bzkdear-530810840?$650_519_PNG$',
-        'https://www.fravega.com/fotos/l/2012210_1.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/s/a/samsung_galaxy_s24_plus_1.jpg'
-      ]
-    },
-    {
-      id: 11,
-      nombre: 'Samsung Galaxy S24',
-      descripcion: 'Pantalla Dynamic AMOLED 2X de 6.1", Snapdragon 8 Gen 3, cámara de 50 MP',
-      precio: 999,
-      marcaId: 2,
-      fotos: [
-        'https://images.samsung.com/is/image/samsung/p6pim/ar/2302/gallery/ar-galaxy-s24-s911-530805-sm-s911bzkdear-530805680?$650_519_PNG$',
-        'https://www.fravega.com/fotos/l/2012208_1.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/s/a/samsung_galaxy_s24_1.jpg'
-      ]
-    },
-    {
-      id: 12,
-      nombre: 'Samsung Galaxy Z Fold 5',
-      descripcion: 'Pantalla Dynamic AMOLED 2X de 7.6", Snapdragon 8 Gen 3, cámara de 50 MP',
-      precio: 1799,
-      marcaId: 2,
-      fotos: [
-        'https://images.samsung.com/is/image/samsung/p6pim/ar/2307/gallery/ar-galaxy-z-fold5-s911-533982-sm-s911ezkaaro-533982827?$650_519_PNG$',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/s/a/samsung_galaxy_z_fold_5_1.jpg',
-        'https://www.fravega.com/fotos/l/2012207_1.jpg'
-      ]
-    },
-    {
-      id: 13,
-      nombre: 'Xiaomi 14 Pro',
-      descripcion: 'Pantalla AMOLED de 6.73", Snapdragon 8 Gen 3, cámara de 50 MP',
-      precio: 999,
-      marcaId: 3,
-      fotos: [
-        'https://http2.mlstatic.com/D_NQ_NP_908877-MLA52377908950_112022-O.webp',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/x/i/xiaomi_14_pro_1.jpg',
-        'https://www.fravega.com/fotos/l/2012225_1.jpg'
-      ]
-    },
-    {
-      id: 14,
-      nombre: 'Xiaomi 14',
-      descripcion: 'Pantalla AMOLED de 6.36", Snapdragon 8 Gen 3, cámara de 50 MP',
-      precio: 799,
-      marcaId: 3,
-      fotos: [
-        'https://http2.mlstatic.com/D_NQ_NP_738438-MLA52408756023_112022-O.webp',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/x/i/xiaomi_14_1.jpg',
-        'https://www.fravega.com/fotos/l/2012226_1.jpg'
-      ]
-    },
-    {
-      id: 15,
-      nombre: 'Xiaomi 14 Lite',
-      descripcion: 'Pantalla AMOLED de 6.67", Snapdragon 7 Gen 2, cámara de 64 MP',
-      precio: 599,
-      marcaId: 3,
-      fotos: [
-        'https://http2.mlstatic.com/D_NQ_NP_972912-MLA52408737120_112022-O.webp',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/x/i/xiaomi_14_lite_1.jpg',
-        'https://www.fravega.com/fotos/l/2012227_1.jpg'
-      ]
-    },
-    {
-      id: 16,
-      nombre: 'Motorola Edge 40 Pro',
-      descripcion: 'Pantalla pOLED de 6.67", Snapdragon 8 Gen 3, cámara de 50 MP',
-      precio: 899,
-      marcaId: 4,
-      fotos: [
-        'https://http2.mlstatic.com/D_NQ_NP_825288-MLA52388776522_112022-O.webp',
-        'https://www.fravega.com/fotos/l/2012286_1.jpg',
-        'https://tiendamia.com.ar/media/catalog/product/cache/7a2577b5b15ed0bbdf83dbf240e2a978/m/o/moto'
-      ]
-    }
-];
