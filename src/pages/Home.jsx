@@ -9,9 +9,6 @@ const Home = () => {
 
     return (
       <>
-          <h1>Bienvenido</h1> 
-          <hr class="solid"/>
-          <p> Bienvenido al mejor lugar para comprar celulares. Acá vas a encontrar tu próximo celular al mejor precio </p>
 
           <h2> Novedades</h2>
           <div className="grilla">

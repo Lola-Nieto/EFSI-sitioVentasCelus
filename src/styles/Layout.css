@@ -58,7 +58,7 @@ html, body {
 hr.solid {
     border-top: 3px solid;
     color: rgba(255, 255, 255, 0.87);
-
+    margin: 20px 0;
   }
 
   .grilla {
@@ -66,4 +66,12 @@ hr.solid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
+  }
+
+  .fotoEquipo {
+    width: 100%;
+    display: block; 
+    margin: 0; 
+    border-radius: 10px;
+    margin-top: 20px;
   }

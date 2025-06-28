@@ -73,8 +73,8 @@
           precio: 1199,
           marcaId: 1,
           fotos: [
-            'https://www.gsmarena.com/pdflinks/apple_iphone_15_pro-pictures-12547.php', 
-            'https://th.bing.com/th/id/OIP.p2N9HPLOedmn4xA6hmHzdgHaJ4?w=1920&h=2560&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3'
+            'eleohttps://www.livemint.com/lm-img/img/2023/09/12/original/iphone_15_colurs_1694541091519.jpg', 
+            'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch_AV1?wid=5120&hei=2880&fmt=webp&qlt=70&.v=cHJOTXEwTU92OEtKVDV2cVB1R2FTSjlERndlRTljaUdZeHJGM3dlLzR2L2RJbmltQWhGZkQyVGNjT3IyemNOZWd2S3NaRzcrU0dmYjNHTUFiMnlsWFRocXAvNjVVaCtjTTZGTUNzOU8wNkc5RGRYNnhoUFdnYk5iSlJkSmMrbGk&traceId=1'
           ]
         },
         {

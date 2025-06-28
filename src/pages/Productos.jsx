@@ -24,7 +24,7 @@ const Productos = () => {
     return (
       <>
       <h1> {titulo}</h1>
-      <hr class="solid"/>
+      <hr className="solid"/>
 
       <div className="grilla">
        {listaCelus.map(celu => (
