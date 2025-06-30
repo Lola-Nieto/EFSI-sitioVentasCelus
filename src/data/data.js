@@ -73,7 +73,7 @@
           precio: 1199,
           marcaId: 1,
           fotos: [
-            'eleohttps://www.livemint.com/lm-img/img/2023/09/12/original/iphone_15_colurs_1694541091519.jpg', 
+            'https://www.livemint.com/lm-img/img/2023/09/12/original/iphone_15_colurs_1694541091519.jpg', 
             'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch_AV1?wid=5120&hei=2880&fmt=webp&qlt=70&.v=cHJOTXEwTU92OEtKVDV2cVB1R2FTSjlERndlRTljaUdZeHJGM3dlLzR2L2RJbmltQWhGZkQyVGNjT3IyemNOZWd2S3NaRzcrU0dmYjNHTUFiMnlsWFRocXAvNjVVaCtjTTZGTUNzOU8wNkc5RGRYNnhoUFdnYk5iSlJkSmMrbGk&traceId=1'
           ]
         },
